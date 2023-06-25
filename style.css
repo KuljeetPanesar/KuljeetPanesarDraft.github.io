@@ -33,9 +33,9 @@ a {
     text-decoration: none;
     color: white;
 }
-
-nav {
+.mainNavigation {
     background-color: rgb(70, 70, 70);
+    padding: 1%;
 }
 
 /* Footer */
