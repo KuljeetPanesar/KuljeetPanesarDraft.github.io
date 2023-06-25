@@ -68,7 +68,12 @@ a {
     width: 50px;
   }
 
-  .footerColumn a {
+  #copyright {
+    margin-top: 5px;
+    margin-right: 8px;
+  }
+  
+  #copyright a{
     color: white;
   }
 
