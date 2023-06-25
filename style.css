@@ -9,9 +9,14 @@ body {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    position: relative;
 }
 
 #profilePhotoCaption {
-    text-align: right;
+    text-align: center;
     font-size: 25px;
+    position: absolute;
+    left: 220px;
+    top: 10%;
+    font-size: 45px;
 }
