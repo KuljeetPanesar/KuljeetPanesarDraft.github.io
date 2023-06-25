@@ -40,11 +40,18 @@ a {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+#websiteTitle {
+    display: inline-block;
+}
+
 .fa-bars {
     color: #0c9570;
     font-size: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
+    float: right;
+    margin-top: 85px;
+
 }
 
 .fa-bars:hover {
@@ -67,6 +74,8 @@ a {
     color: #044b38;
     padding: 1rem;
 }
+
+
 
 /* Footer */
 
@@ -147,10 +156,14 @@ a {
   #copyright {
     margin-top: 5px;
     text-align: end;
-    margin-right: 8px;
+    margin-right: 25px;
   }
   
   #copyright a{
     color: white;
     font-size: 14px;
   }
+
+
+  /* when screen less than 650px wide, change name formatting to center stacked */
+  /* check smaller size than that then make name disappear */
