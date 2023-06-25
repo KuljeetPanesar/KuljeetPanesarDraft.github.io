@@ -138,6 +138,26 @@ p {
     text-align: justify;
 }
 
+.aboutMe {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.aboutMe .aboutMeSection {
+    width: 50%;
+    margin: 10px;
+}
+
+
+/* edit responsiveness */
+#codingImage {
+    width: 50%;
+    padding: 1rem;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+
 
 /* Footer */
 
@@ -149,13 +169,13 @@ p {
 footer{
     background-color: rgb(70, 70, 70);
     padding: 20px 0;
-  }
+}
 
 .footerColumn{
      width: 40%;
      padding: 0 8px;
      margin-left: 20px;
-  }
+}
 
 .footerColumn h6{
     font-size: 18px;
@@ -164,7 +184,7 @@ footer{
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
-  }
+}
 
 .footerColumn h6::before{
     content: '';
@@ -175,11 +195,11 @@ footer{
     height: 2px;
     box-sizing: border-box;
     width: 50px;
-  }
+}
 
 .footerColumn ul li:not(:last-child){
     margin-bottom: 10px;
-  }
+}
 
 .footerColumn ul li a{
     font-size: 16px;
@@ -190,12 +210,12 @@ footer{
     color: #bbbbbb;
     display: block;
     transition: all 0.3s ease;
-  }
+}
 
 .footerColumn ul li a:hover{
     color: #0c9570;
     padding-left: 8px;
-  }
+}
 
 .footerColumn .socials a{
     display: inline-block;
@@ -208,23 +228,23 @@ footer{
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
-  }
+}
 
 .footerColumn .socials a:hover{
     color: #24262b;
     background-color: #ffffff;
-  }
+}
 
 #copyright {
     margin-top: 5px;
     text-align: end;
     margin-right: 25px;
-  }
+}
   
 #copyright a{
     color: white;
     font-size: 14px;
-  }
+}
 
 
   /* when screen less than 650px wide, change name formatting to center stacked */
