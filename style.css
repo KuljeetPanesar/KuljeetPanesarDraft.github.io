@@ -133,18 +133,18 @@ a {
     flex-wrap: wrap;
 }
 
-  footer{
+footer{
     background-color: rgb(70, 70, 70);
     padding: 20px 0;
   }
 
-  .footerColumn{
-     width: 45%;
+.footerColumn{
+     width: 40%;
      padding: 0 8px;
-     margin-left: 8px;
+     margin-left: 20px;
   }
 
-  .footerColumn h6{
+.footerColumn h6{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -153,7 +153,7 @@ a {
     position: relative;
   }
 
-  .footerColumn h6::before{
+.footerColumn h6::before{
     content: '';
     position: absolute;
     left:0;
@@ -164,11 +164,11 @@ a {
     width: 50px;
   }
 
-  .footerColumn ul li:not(:last-child){
+.footerColumn ul li:not(:last-child){
     margin-bottom: 10px;
   }
 
-  .footerColumn ul li a{
+.footerColumn ul li a{
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -179,12 +179,12 @@ a {
     transition: all 0.3s ease;
   }
 
-  .footerColumn ul li a:hover{
+.footerColumn ul li a:hover{
     color: #0c9570;
     padding-left: 8px;
   }
 
-  .footerColumn .socials a{
+.footerColumn .socials a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -197,18 +197,18 @@ a {
     transition: all 0.5s ease;
   }
 
-  .footerColumn .socials a:hover{
+.footerColumn .socials a:hover{
     color: #24262b;
     background-color: #ffffff;
   }
 
-  #copyright {
+#copyright {
     margin-top: 5px;
     text-align: end;
     margin-right: 25px;
   }
   
-  #copyright a{
+#copyright a{
     color: white;
     font-size: 14px;
   }
